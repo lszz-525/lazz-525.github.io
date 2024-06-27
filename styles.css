@@ -1,23 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     margin: 0;
+    font-weight: 700;
 }
 
 main {
     padding: 20px;
+    flex: 1;
 }
 
 .gallery {
@@ -30,17 +36,30 @@ main {
 .photo-item {
     background-color: white;
     border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.photo-item:hover {
+    transform: scale(1.05);
 }
 
 .photo-item img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    flex: 1;
 }
 
 footer {
@@ -48,11 +67,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-p {
-    margin: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
