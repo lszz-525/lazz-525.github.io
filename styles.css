@@ -27,8 +27,8 @@ main {
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     justify-content: center;
 }
@@ -39,9 +39,8 @@ main {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     transition: transform 0.2s;
 }
 
@@ -50,16 +49,18 @@ main {
 }
 
 .photo-item img {
-    max-width: 50%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-right: 20px;
 }
 
-p {
-    margin: 0;
+.photo-item p {
+    margin-top: 10px;
     font-weight: 400;
-    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
 }
 
 footer {
