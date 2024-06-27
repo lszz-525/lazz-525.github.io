@@ -38,13 +38,23 @@ main {
     flex: 1;
 }
 
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .intro {
     text-align: center;
     margin-bottom: 40px;
     padding: 20px;
-    background: url('https://ooo.0x0.ooo/2024/06/27/OP79ai.gif') center/cover no-repeat; /* 修改为你的GIF URL */
+    background-color: #f9f9f9;
     border-radius: 10px;
-    color: white;
 }
 
 .intro h2 {
