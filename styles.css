@@ -42,7 +42,7 @@ main {
     text-align: center;
     margin-bottom: 40px;
     padding: 20px;
-    background: url('https://ooo.0x0.ooo/2024/06/27/OP79ai.gif') center/cover no-repeat;
+    background: url('https://ooo.0x0.ooo/2024/06/27/OP79ai.gif') center/cover no-repeat; /* 修改为你的GIF URL */
     border-radius: 10px;
     color: white;
 }
