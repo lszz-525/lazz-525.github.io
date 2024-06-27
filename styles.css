@@ -30,7 +30,7 @@ header {
 
 h1 {
     margin: 0;
-    font-weight: 1200;
+    font-weight: 700;
 }
 
 main {
@@ -40,17 +40,20 @@ main {
 
 .intro {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* 调整下边距 */
+    padding: 20px; /* 调整上下内边距 */
+    background-color: #f9f9f9; /* 可选：添加背景色 */
+    border-radius: 10px; /* 可选：添加圆角 */
 }
 
 .intro h2 {
     margin: 0;
-    font-size: 30px;
+    font-size: 32px; /* 调整标题字体大小 */
 }
 
 .intro p {
-    font-size: 20px;
-    margin: 10px 0 0 0;
+    font-size: 18px; /* 调整内容字体大小 */
+    margin: 20px 0 0 0; /* 调整上边距 */
 }
 
 .gallery {
