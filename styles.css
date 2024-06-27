@@ -23,38 +23,38 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 
 h1 {
     margin: 0;
-    font-weight: 1000;
+    font-weight: 700;
 }
 
 main {
-    padding: 40px;
+    padding: 20px;
     flex: 1;
 }
 
 .intro {
     text-align: center;
-    margin-top: 40px; /* 调整下边距 */
-    margin-bottom: 40px; /* 调整下边距 */
-    padding: 20px; /* 调整上下内边距 */
-    background-color: white; /* 可选：添加背景色 */
-    border-radius: 10px; /* 可选：添加圆角 */
+    margin-bottom: 40px;
+    padding: 20px;
+    background: url('https://ooo.0x0.ooo/2024/06/27/OP79ai.gif') center/cover no-repeat;
+    border-radius: 10px;
+    color: white;
 }
 
 .intro h2 {
     margin: 0;
-    font-size: 40px; /* 调整标题字体大小 */
+    font-size: 32px;
 }
 
 .intro p {
-    font-size: 26px; /* 调整内容字体大小 */
-    margin: 40px 0 0 0; /* 调整上边距 */
+    font-size: 18px;
+    margin: 20px 0 0 0;
 }
 
 .gallery {
