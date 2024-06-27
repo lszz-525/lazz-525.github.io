@@ -40,8 +40,8 @@ main {
 
 .intro {
     text-align: center;
-    margin-top: 80px; /* 调整下边距 */
-    margin-bottom: 80px; /* 调整下边距 */
+    margin-top: 40px; /* 调整下边距 */
+    margin-bottom: 40px; /* 调整下边距 */
     padding: 20px; /* 调整上下内边距 */
     background-color: white; /* 可选：添加背景色 */
     border-radius: 10px; /* 可选：添加圆角 */
